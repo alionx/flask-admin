@@ -19,7 +19,6 @@ class Admin(object):
     def demo_file(self):
         '''
         根据项目路径创建项目文件夹
-        :param input_name:输入的项目名称
         :return:
         '''
         # 拼接项目路径
@@ -30,9 +29,7 @@ class Admin(object):
 
     def demo_type(self, demo_type):
         '''
-
-        :param demo_type:
-        :param demopath:
+        :param demo_type:项目类型
         :return:
         '''
         if demo_type == 'simple':
